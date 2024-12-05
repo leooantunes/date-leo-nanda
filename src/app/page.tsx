@@ -154,18 +154,15 @@ export default function Home() {
           gradient={["to right", "#267cc1 ,#1bb558"]}
           style={{ marginBottom: 25, textTransform: "uppercase" }}
         >
-          Nanda & Leo
+          {"<Nanda & Leo>"}
         </LinearGradient>
         <LinearGradient
           gradient={["to right", "#267cc1 ,#1bb558"]}
           style={{ textAlign: "center", textTransform: "uppercase" }}
         >
-          Hoje é nosso dia, e eu não poderia estar mais feliz por ter você ao
-          meu lado. Cada momento, cada sorriso, cada desafio juntos só fortalece
-          o que sentimos um pelo outro. Sou grato por todo amor, cumplicidade e
-          felicidade que você traz à minha vida. Que possamos continuar
-          caminhando juntos, superando tudo com o coração cheio de amor. Te amo
-          hoje, amanhã e sempre!
+          {
+            "<Hoje é nosso dia, e eu não poderia estar mais feliz por ter você ao meu lado. Cada momento, cada sorriso, cada desafio juntos só fortalece o que sentimos um pelo outro. Sou grato por todo amor, cumplicidade e felicidade que você traz à minha vida. Que possamos continuar caminhando juntos, superando tudo com o coração cheio de amor. Te amo hoje, amanhã e sempre>"
+          }
         </LinearGradient>
       </div>
       <div

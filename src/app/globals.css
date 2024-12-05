@@ -11,12 +11,10 @@
 body {
   color: var(--foreground);
   background: "#292947";
-    font-family: "Sour Gummy", sans-serif;
+    font-family: sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
 }
 
 * {

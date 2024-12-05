@@ -1,9 +1,9 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
-const sourGummy = localFont({
-  src: "./fonts/SourGummy_Expanded-Bold.ttf",
-  variable: "--font-sour-gummy",
+const lovely = localFont({
+  src: "./fonts/LOVELY.otf",
+  variable: "--font-lovely",
 });
 
 export const metadata = {
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${sourGummy.variable}`}>{children}</body>
+      <body className={`${lovely.variable}`}>{children}</body>
     </html>
   );
 }
