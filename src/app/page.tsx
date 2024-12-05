@@ -158,13 +158,13 @@ export default function Home() {
       >
         <LinearGradient
           gradient={["to right", "#267cc1 ,#1bb558"]}
-          style={{ marginBottom: 25 }}
+          style={{ marginBottom: 25, textTransform: "uppercase" }}
         >
           Nanda & Leo
         </LinearGradient>
         <LinearGradient
           gradient={["to right", "#267cc1 ,#1bb558"]}
-          style={{ textAlign: "center" }}
+          style={{ textAlign: "center", textTransform: "uppercase" }}
         >
           Hoje é nosso dia, e eu não poderia estar mais feliz por ter você ao
           meu lado. Cada momento, cada sorriso, cada desafio juntos só fortalece
