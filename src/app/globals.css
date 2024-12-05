@@ -8,7 +8,7 @@
   }
 }
 
-body, .--font-lovely {
+body {
   color: var(--foreground);
   background: "#292947";
   font-family: var(--font-lovely), sans-serif;

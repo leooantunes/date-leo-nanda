@@ -7,6 +7,11 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+const lovely = localFont({
+  src: "./fonts/LOVELY.otf",
+  variable: "--font-lovely",
+});
+
 import Image1 from "./images/1.jpeg";
 import Image2 from "./images/2.jpeg";
 import Image3 from "./images/3.jpeg";
@@ -19,6 +24,7 @@ import Image9 from "./images/9.jpeg";
 import Image10 from "./images/10.jpeg";
 import Image11 from "./images/11.jpeg";
 import Image12 from "./images/12.jpeg";
+import localFont from "next/font/local";
 
 const images = [
   Image1,
@@ -103,8 +109,8 @@ export default function Home() {
         paddingLeft: 20,
         paddingRight: 20,
         marginTop: 20,
-        fontFamily: "fantasy",
       }}
+      className={`${lovely.variable}`}
     >
       {isClient && (
         <Slider {...settings} key={"slider"}>

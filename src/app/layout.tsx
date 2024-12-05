@@ -4,6 +4,7 @@ import "./globals.css";
 const lovely = localFont({
   src: "./fonts/LOVELY.otf",
   variable: "--font-lovely",
+  weight: "700",
 });
 
 export const metadata = {
