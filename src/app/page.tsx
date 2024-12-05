@@ -7,11 +7,6 @@ import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const antonMono = localFont({
-  src: "./fonts/AntonSC-Regular.ttf",
-  variable: "--font-anton-mono",
-});
-
 import Image1 from "./images/1.jpeg";
 import Image2 from "./images/2.jpeg";
 import Image3 from "./images/3.jpeg";
@@ -24,7 +19,6 @@ import Image9 from "./images/9.jpeg";
 import Image10 from "./images/10.jpeg";
 import Image11 from "./images/11.jpeg";
 import Image12 from "./images/12.jpeg";
-import { dot } from "node:test/reporters";
 import localFont from "next/font/local";
 
 const images = [

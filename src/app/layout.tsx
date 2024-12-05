@@ -1,9 +1,9 @@
 import localFont from "next/font/local";
 import "./globals.css";
 
-const antonMono = localFont({
-  src: "./fonts/AntonSC-Regular.ttf",
-  variable: "--font-anton-mono",
+const sourGummy = localFont({
+  src: "./fonts/SourGummy_Expanded-Bold.ttf",
+  variable: "--font-sour-gummy",
 });
 
 export const metadata = {
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${antonMono.variable}`}>{children}</body>
+      <body className={`${sourGummy.variable}`}>{children}</body>
     </html>
   );
 }
