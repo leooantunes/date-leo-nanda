@@ -14,16 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${sourGummy.variable}`}
-        style={{
-          fontFamily: "sans-serif",
-          fontWeight: 800,
-          fontStyle: "normal",
-        }}
-      >
-        {children}
-      </body>
+      <body className={`${sourGummy.variable}`}>{children}</body>
     </html>
   );
 }
