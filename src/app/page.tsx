@@ -19,7 +19,6 @@ import Image9 from "./images/9.jpeg";
 import Image10 from "./images/10.jpeg";
 import Image11 from "./images/11.jpeg";
 import Image12 from "./images/12.jpeg";
-import localFont from "next/font/local";
 
 const images = [
   Image1,

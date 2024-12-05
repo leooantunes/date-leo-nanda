@@ -8,13 +8,13 @@
   }
 }
 
-body {
+body, .--font-lovely {
   color: var(--foreground);
   background: "#292947";
-    font-family: sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+  font-family: var(--font-lovely), sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 * {
